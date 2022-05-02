@@ -64,12 +64,20 @@ namespace SkillMapv4.Controllers
 
 
         [HttpGet]
-        public IActionResult Edit()
+        public IActionResult Edit(int? id)
         {
-                Employee employee = new Employee();
+            var emp = _context.Employees.Where(c => c.Id == id).FirstOrDefault();
 
-            
-                return View(employee);
+            var Skills = _context.Skills.Where(c => c.EmployeeId == id).ToList();
+
+         
+            if (emp != null)
+                return View(emp);
+           
+
+           
+
+            return View(emp);
             
         }
 

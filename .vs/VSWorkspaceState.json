@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SkillMapv4",
+    "\\SkillMapv4\\Controllers",
+    "\\SkillMapv4\\Views",
+    "\\SkillMapv4\\Views\\SkillMap",
+    "\\SkillMapv4\\wwwroot",
+    "\\SkillMapv4\\wwwroot\\lib",
+    "\\SkillMapv4\\wwwroot\\lib\\jquery-validation",
+    "\\SkillMapv4\\wwwroot\\lib\\jquery-validation\\dist"
+  ],
+  "SelectedNode": "\\SkillMapv4\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+  "PreviewInSolutionExplorer": false
+}

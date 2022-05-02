@@ -18,7 +18,7 @@ namespace SkillMapv4.Models
 
         public int Age { get; set; }
 
-        public virtual List<Skills> Skills { get; set; } = new List<Skills>(); //TODO detail very important 
+        public virtual List<Skills> Skills { get; set; } = new List<Skills>();
 
 
     }
